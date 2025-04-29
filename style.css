@@ -92,3 +92,22 @@ footer {
     text-align: center;
     font-size: 0.9em;
 }
+
+/* アルバムページ */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
